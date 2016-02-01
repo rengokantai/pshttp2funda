@@ -43,3 +43,14 @@ Response
 ```
 curl -vs -o /dev/null --http2 http://nghttp2.org
 ```
+
+- 3-10
+Domain sharding.  
+seperate domain.com, images.domain.com, styles.domain.com  
+nagative impacts:  
+A socket requires resources  
+TCP overhead  
+DNS lookups  
+
+
+
